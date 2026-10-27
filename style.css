@@ -1,0 +1,121 @@
+body {
+    background-color: burlywood;
+}
+
+.card {
+    background-color: antiquewhite;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px #4e2323;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-container {
+    display: grid;
+    gap: 12px;
+    grid-template-columns: repeat(4,1fr);
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+}
+main {
+    margin: 20px;
+}
+.button-beli {
+    padding: 8px;
+    width: 100%;
+    background-color: brown;
+    color: white;
+    font-weight: bold;
+    border: none;
+    margin-bottom: 4px;
+    border-radius: 100px;
+    box-shadow: 4px 4px black;
+}
+
+header {
+    margin-inline: 50px;
+    background-color: brown;
+    height: 70px;
+    padding-block: 8px;
+    padding-inline: 30px;
+    color: aliceblue;
+    border-radius: 100px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav > a {
+    text-decoration: none;
+    color: aliceblue;
+    margin-inline: 8px;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+
+.tambah-kuantitas button {
+    background-color: brown;
+    padding: 4px;
+    border: none;
+    border-radius: 2px;
+    color: aliceblue;
+    margin: 4px;
+}
+
+.tambah-kuantitas input {
+    width: 40px;
+    text-align: center;
+    border: none;
+    box-shadow: 2px 2px black;
+    border-radius: 4px;
+}
+
+footer {
+    background-color: peachpuff;
+    color:brown;
+    padding: 16px;
+}
+
+.kontak {
+    display: flex;
+    width: 50%;
+    margin: auto;
+}
+
+footer h3,
+h5 {
+    margin-top: 8px;
+    text-align: center;
+}
+
+form button {
+    border: none;
+    background-color:brown;
+    border-radius: 8px;
+    padding: 8px;
+    box-shadow: 4px 4px burlywood;
+}
+
+form input,
+textarea {
+    border: none;
+    padding: 8px;
+    border-radius: 8px;
+    box-shadow: 4px 4px burlywood;
+}
+
+
+
